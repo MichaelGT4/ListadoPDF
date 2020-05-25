@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://www.ionos.es/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/ -->
+<html class="no-js" lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css" data-tippy-stylesheet="">.tippy-iOS{cursor:pointer!important;-webkit-tap-highlight-color:transparent}.tippy-popper{transition-timing-function:cubic-bezier(.165,.84,.44,1);max-width:calc(100% - 8px);pointer-events:none;outline:0}.tippy-popper[x-placement^=top] .tippy-backdrop{border-radius:40% 40% 0 0}.tippy-popper[x-placement^=top] .tippy-roundarrow{bottom:-7px;bottom:-6.5px;-webkit-transform-origin:50% 0;transform-origin:50% 0;margin:0 3px}.tippy-popper[x-placement^=top] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(180deg);transform:rotate(180deg)}.tippy-popper[x-placement^=top] .tippy-arrow{border-top:8px solid #333;border-right:8px solid transparent;border-left:8px solid transparent;bottom:-7px;margin:0 3px;-webkit-transform-origin:50% 0;transform-origin:50% 0}.tippy-popper[x-placement^=top] .tippy-backdrop{-webkit-transform-origin:0 25%;transform-origin:0 25%}.tippy-popper[x-placement^=top] .tippy-backdrop[data-state=visible]{-webkit-transform:scale(1) translate(-50%,-55%);transform:scale(1) translate(-50%,-55%)}.tippy-popper[x-placement^=top] .tippy-backdrop[data-state=hidden]{-webkit-transform:scale(.2) translate(-50%,-45%);transform:scale(.2) translate(-50%,-45%);opacity:0}.tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=visible]{-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=hidden]{opacity:0;-webkit-transform:translateY(-20px);transform:translateY(-20px)}.tippy-popper[x-placement^=top] [data-animation=perspective]{-webkit-transform-origin:bottom;transform-origin:bottom}.tippy-popper[x-placement^=top] [data-animation=perspective][data-state=visible]{-webkit-transform:perspective(700px) translateY(-10px) rotateX(0);transform:perspective(700px) translateY(-10px) rotateX(0)}.tippy-popper[x-placement^=top] [data-animation=perspective][data-state=hidden]{opacity:0;-webkit-transform:perspective(700px) translateY(0) rotateX(60deg);transform:perspective(700px) translateY(0) rotateX(60deg)}.tippy-popper[x-placement^=top] [data-animation=fade][data-state=visible]{-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=fade][data-state=hidden]{opacity:0;-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=visible]{-webkit-transform:translateY(-10px);transform:translateY(-10px)}.tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=hidden]{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper[x-placement^=top] [data-animation=scale]{-webkit-transform-origin:bottom;transform-origin:bottom}.tippy-popper[x-placement^=top] [data-animation=scale][data-state=visible]{-webkit-transform:translateY(-10px) scale(1);transform:translateY(-10px) scale(1)}.tippy-popper[x-placement^=top] [data-animation=scale][data-state=hidden]{opacity:0;-webkit-transform:translateY(-10px) scale(.5);transform:translateY(-10px) scale(.5)}.tippy-popper[x-placement^=bottom] .tippy-backdrop{border-radius:0 0 30% 30%}.tippy-popper[x-placement^=bottom] .tippy-roundarrow{top:-7px;-webkit-transform-origin:50% 100%;transform-origin:50% 100%;margin:0 3px}.tippy-popper[x-placement^=bottom] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(0);transform:rotate(0)}.tippy-popper[x-placement^=bottom] .tippy-arrow{border-bottom:8px solid #333;border-right:8px solid transparent;border-left:8px solid transparent;top:-7px;margin:0 3px;-webkit-transform-origin:50% 100%;transform-origin:50% 100%}.tippy-popper[x-placement^=bottom] .tippy-backdrop{-webkit-transform-origin:0 -50%;transform-origin:0 -50%}.tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=visible]{-webkit-transform:scale(1) translate(-50%,-45%);transform:scale(1) translate(-50%,-45%)}.tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=hidden]{-webkit-transform:scale(.2) translate(-50%);transform:scale(.2) translate(-50%);opacity:0}.tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=visible]{-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=hidden]{opacity:0;-webkit-transform:translateY(20px);transform:translateY(20px)}.tippy-popper[x-placement^=bottom] [data-animation=perspective]{-webkit-transform-origin:top;transform-origin:top}.tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=visible]{-webkit-transform:perspective(700px) translateY(10px) rotateX(0);transform:perspective(700px) translateY(10px) rotateX(0)}.tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=hidden]{opacity:0;-webkit-transform:perspective(700px) translateY(0) rotateX(-60deg);transform:perspective(700px) translateY(0) rotateX(-60deg)}.tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=visible]{-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=hidden]{opacity:0;-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=visible]{-webkit-transform:translateY(10px);transform:translateY(10px)}.tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=hidden]{opacity:0;-webkit-transform:translateY(0);transform:translateY(0)}.tippy-popper[x-placement^=bottom] [data-animation=scale]{-webkit-transform-origin:top;transform-origin:top}.tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=visible]{-webkit-transform:translateY(10px) scale(1);transform:translateY(10px) scale(1)}.tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=hidden]{opacity:0;-webkit-transform:translateY(10px) scale(.5);transform:translateY(10px) scale(.5)}.tippy-popper[x-placement^=left] .tippy-backdrop{border-radius:50% 0 0 50%}.tippy-popper[x-placement^=left] .tippy-roundarrow{right:-12px;-webkit-transform-origin:33.33333333% 50%;transform-origin:33.33333333% 50%;margin:3px 0}.tippy-popper[x-placement^=left] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(90deg);transform:rotate(90deg)}.tippy-popper[x-placement^=left] .tippy-arrow{border-left:8px solid #333;border-top:8px solid transparent;border-bottom:8px solid transparent;right:-7px;margin:3px 0;-webkit-transform-origin:0 50%;transform-origin:0 50%}.tippy-popper[x-placement^=left] .tippy-backdrop{-webkit-transform-origin:50% 0;transform-origin:50% 0}.tippy-popper[x-placement^=left] .tippy-backdrop[data-state=visible]{-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%)}.tippy-popper[x-placement^=left] .tippy-backdrop[data-state=hidden]{-webkit-transform:scale(.2) translate(-75%,-50%);transform:scale(.2) translate(-75%,-50%);opacity:0}.tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=visible]{-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=hidden]{opacity:0;-webkit-transform:translateX(-20px);transform:translateX(-20px)}.tippy-popper[x-placement^=left] [data-animation=perspective]{-webkit-transform-origin:right;transform-origin:right}.tippy-popper[x-placement^=left] [data-animation=perspective][data-state=visible]{-webkit-transform:perspective(700px) translateX(-10px) rotateY(0);transform:perspective(700px) translateX(-10px) rotateY(0)}.tippy-popper[x-placement^=left] [data-animation=perspective][data-state=hidden]{opacity:0;-webkit-transform:perspective(700px) translateX(0) rotateY(-60deg);transform:perspective(700px) translateX(0) rotateY(-60deg)}.tippy-popper[x-placement^=left] [data-animation=fade][data-state=visible]{-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=fade][data-state=hidden]{opacity:0;-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=visible]{-webkit-transform:translateX(-10px);transform:translateX(-10px)}.tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=hidden]{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper[x-placement^=left] [data-animation=scale]{-webkit-transform-origin:right;transform-origin:right}.tippy-popper[x-placement^=left] [data-animation=scale][data-state=visible]{-webkit-transform:translateX(-10px) scale(1);transform:translateX(-10px) scale(1)}.tippy-popper[x-placement^=left] [data-animation=scale][data-state=hidden]{opacity:0;-webkit-transform:translateX(-10px) scale(.5);transform:translateX(-10px) scale(.5)}.tippy-popper[x-placement^=right] .tippy-backdrop{border-radius:0 50% 50% 0}.tippy-popper[x-placement^=right] .tippy-roundarrow{left:-12px;-webkit-transform-origin:66.66666666% 50%;transform-origin:66.66666666% 50%;margin:3px 0}.tippy-popper[x-placement^=right] .tippy-roundarrow svg{position:absolute;left:0;-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}.tippy-popper[x-placement^=right] .tippy-arrow{border-right:8px solid #333;border-top:8px solid transparent;border-bottom:8px solid transparent;left:-7px;margin:3px 0;-webkit-transform-origin:100% 50%;transform-origin:100% 50%}.tippy-popper[x-placement^=right] .tippy-backdrop{-webkit-transform-origin:-50% 0;transform-origin:-50% 0}.tippy-popper[x-placement^=right] .tippy-backdrop[data-state=visible]{-webkit-transform:scale(1) translate(-50%,-50%);transform:scale(1) translate(-50%,-50%)}.tippy-popper[x-placement^=right] .tippy-backdrop[data-state=hidden]{-webkit-transform:scale(.2) translate(-25%,-50%);transform:scale(.2) translate(-25%,-50%);opacity:0}.tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=visible]{-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=hidden]{opacity:0;-webkit-transform:translateX(20px);transform:translateX(20px)}.tippy-popper[x-placement^=right] [data-animation=perspective]{-webkit-transform-origin:left;transform-origin:left}.tippy-popper[x-placement^=right] [data-animation=perspective][data-state=visible]{-webkit-transform:perspective(700px) translateX(10px) rotateY(0);transform:perspective(700px) translateX(10px) rotateY(0)}.tippy-popper[x-placement^=right] [data-animation=perspective][data-state=hidden]{opacity:0;-webkit-transform:perspective(700px) translateX(0) rotateY(60deg);transform:perspective(700px) translateX(0) rotateY(60deg)}.tippy-popper[x-placement^=right] [data-animation=fade][data-state=visible]{-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=fade][data-state=hidden]{opacity:0;-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=visible]{-webkit-transform:translateX(10px);transform:translateX(10px)}.tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=hidden]{opacity:0;-webkit-transform:translateX(0);transform:translateX(0)}.tippy-popper[x-placement^=right] [data-animation=scale]{-webkit-transform-origin:left;transform-origin:left}.tippy-popper[x-placement^=right] [data-animation=scale][data-state=visible]{-webkit-transform:translateX(10px) scale(1);transform:translateX(10px) scale(1)}.tippy-popper[x-placement^=right] [data-animation=scale][data-state=hidden]{opacity:0;-webkit-transform:translateX(10px) scale(.5);transform:translateX(10px) scale(.5)}.tippy-tooltip{position:relative;color:#fff;border-radius:.25rem;font-size:.875rem;padding:.3125rem .5625rem;line-height:1.4;text-align:center;background-color:#333}.tippy-tooltip[data-size=small]{padding:.1875rem .375rem;font-size:.75rem}.tippy-tooltip[data-size=large]{padding:.375rem .75rem;font-size:1rem}.tippy-tooltip[data-animatefill]{overflow:hidden;background-color:transparent}.tippy-tooltip[data-interactive],.tippy-tooltip[data-interactive] .tippy-roundarrow path{pointer-events:auto}.tippy-tooltip[data-inertia][data-state=visible]{transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)}.tippy-tooltip[data-inertia][data-state=hidden]{transition-timing-function:ease}.tippy-arrow,.tippy-roundarrow{position:absolute;width:0;height:0}.tippy-roundarrow{width:18px;height:7px;fill:#333;pointer-events:none}.tippy-backdrop{position:absolute;background-color:#333;border-radius:50%;width:calc(110% + 2rem);left:50%;top:50%;z-index:-1;transition:all cubic-bezier(.46,.1,.52,.98);-webkit-backface-visibility:hidden;backface-visibility:hidden}.tippy-backdrop:after{content:"";float:left;padding-top:100%}.tippy-backdrop+.tippy-content{transition-property:opacity;will-change:opacity}.tippy-backdrop+.tippy-content[data-state=visible]{opacity:1}.tippy-backdrop+.tippy-content[data-state=hidden]{opacity:0}</style>
+
+
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2019 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+<!--<base href="https://www.ionos.es/ayuda/">--><base href=".">
+
+
+<meta name="generator" content="TYPO3 CMS">
+<meta name="robots" content="index,follow">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0">
+<meta name="pageType" content="article">
+<meta name="description" content="Si el código PHP contiene un error de sintaxis, el parser de PHP (analizador de PHP) no puede interpretar el código y deja de funcionar.">
+
+
+<link rel="stylesheet" type="text/css" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/FrontendServices.php" media="all">
+<link rel="stylesheet" type="text/css" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/ionos.compat.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/79c8a72a28-e792bbf72a6e68e9866865d782ab069d.css" media="all">
+<link rel="stylesheet" type="text/css" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/merged-9fb9fba0bc751f98756cc6aeb5798a6b-3f27be0fb1e58bdb325135e1177a36db.css" media="all">
+
+
+
+<script type="text/javascript" async="" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/ias.js.descarga"></script><script type="text/javascript" async="" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/statuspage.js.descarga"></script><script type="text/javascript" async="" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/welcome-tour.js.descarga"></script><script type="text/javascript" async="" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/navigation.js.descarga"></script><script type="text/javascript" async="" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/inpagelayer.js.descarga"></script><script type="text/javascript" async="" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/privacyconsent.js.descarga"></script><script type="text/javascript" async="" defer="" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/piwik.js.descarga"></script><script src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/merged-869e3dd4d6faa22ba606d620b6839807-8ca209f650287d479251c1f1becc5809.js.descarga" type="text/javascript"></script>
+
+
+<link rel="shortcut icon" href="https://www.ionos.es/favicon.ico">
+<meta name="application" content="helpandlearn-rb">
+<meta name="page-id" content="2887">
+<meta name="page-name" content="¿Qué es un Parse Error?">
+<meta name="article-id" content="2887">
+<meta name="article-name" content="¿Qué es un Parse Error?">
+<meta name="topic-id" content="2886">
+<meta name="topic-name" content="Solución de problemas para PHP">
+<meta name="category-id" content="2753">
+<meta name="category-name" content="Hosting">
+<meta name="lang" content="2">
+<meta name="user-state" content="unknown">
+<meta name="category-enum" content="HOSTING">
+<script type="text/javascript">if (document.querySelectorAll("meta[name='user-state']").length > 0) { document.querySelectorAll("meta[name='user-state']").item(0).setAttribute("content", document.cookie.indexOf("eue_ftk") !== -1 ? "customer" : "unknown"); }</script>
+<meta property="og:title" content="¿Qué es un Parse Error? - IONOS Ayuda"><meta property="og:type" content="article"><meta property="og:url" content="https://www.ionos.es/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/"><meta property="og:site_name" content="IONOS Ayuda"><meta property="og:description" content="Si el código PHP contiene un error de sintaxis, el parser de PHP (analizador de PHP) no puede interpretar el código y deja de funcionar."><meta property="og:image" content="https://hosting.1und1.de/logo.png"><script src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/satelliteLib-91d69e1fe02d5ac71a4234b54b59c593a5d59d30.js.descarga"></script><script type="text/javascript">
+
+var _paq = _paq || [];
+_paq.push(["setDomains", ["*.www.ionos.es/ayuda","*.www.ionos.mx/ayuda"]]);
+_paq.push(["enableCrossDomainLinking"]);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var tld = document.location.host.substr(document.location.host.indexOf('ionos')+5)
+    var u="https://mawa.ionos"+tld+"/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '96']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+})();
+
+window.matomoTracking = {};
+// set a custom 'documentTitle'
+window.matomoTracking.urlParts = document.location.pathname.substring(1).split('/');
+window.matomoTracking.startIndex = document.location.host.indexOf('ionos') !== -1 ? 1 : 0;
+
+window.matomoTracking.title = '';
+
+var metaPageName = document.querySelector('meta[name="page-name"]');
+if (metaPageName !== null) {
+    var pageName = metaPageName.getAttribute('content').toLowerCase().replace(/ /g, '-');
+    window.matomoTracking.title = pageName;
+
+    var metaTopicName = document.querySelector('meta[name="topic-name"]');
+    if (metaTopicName !== null) {
+        var topicName = metaTopicName.getAttribute('content').toLowerCase().replace(/ /g, '-');
+
+        // only different for article pages
+        if (topicName !== pageName) {
+            window.matomoTracking.title = topicName + '/' + window.matomoTracking.title;
+        }
+
+        var metaCategoryName = document.querySelector('meta[name="category-name"]');
+        if (metaCategoryName !== null) {
+            var categoryName = metaCategoryName.getAttribute('content').toLowerCase().replace(/ /g, '-');
+
+            window.matomoTracking.title = categoryName + '/' + window.matomoTracking.title;
+        }
+    }
+}
+
+if (window.matomoTracking.title !== '') {
+    _paq.push(['setDocumentTitle', window.matomoTracking.title]);
+}
+
+// we assume that if the cookie is set the customer is logged in
+_paq.push(['setCustomVariable', 1, 'customer', document.cookie.indexOf('eue_ftk') !== -1, 'page']);
+
+var metaPageId = document.querySelector('meta[name="page-id"]');
+if (metaPageId !== null) {
+    var pageId = metaPageId.getAttribute('content');
+    _paq.push(['setCustomVariable', 2, 'pageId', pageId, 'page']);
+}
+
+// track time vistors spent on page
+_paq.push(['enableHeartBeatTimer', 30]);
+
+// push data to Matomo
+_paq.push(['trackPageView']);
+              
+</script>
+	<title>¿Qué es un Parse Error? - IONOS Ayuda</title>
+	<meta name="keywords" content="IONOS, 1and1, 1+1, 1and1, Error de análisis, Definición">
+	<link rel="alternate" hreflang="de-AT" href="https://www.ionos.de/hilfe/hosting/problemloesungen-fuer-php/was-ist-ein-parse-error/">
+    <link rel="alternate" hreflang="de-DE" href="https://www.ionos.de/hilfe/hosting/problemloesungen-fuer-php/was-ist-ein-parse-error/">
+    <link rel="alternate" hreflang="de" href="https://www.ionos.de/hilfe/hosting/problemloesungen-fuer-php/was-ist-ein-parse-error/">
+    <link rel="alternate" hreflang="en-GB" href="https://www.ionos.co.uk/help/hosting/troubleshooting-for-php/what-is-a-parse-error/">
+    <link rel="alternate" hreflang="es-ES" href="https://www.ionos.es/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/">
+    <link rel="alternate" hreflang="es" href="https://www.ionos.es/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/">
+    <link rel="alternate" hreflang="en-US" href="https://www.ionos.com/help/hosting/troubleshooting-for-php/what-is-a-parse-error/">
+    <link rel="alternate" hreflang="en" href="https://www.ionos.com/help/hosting/troubleshooting-for-php/what-is-a-parse-error/">
+    <link rel="alternate" hreflang="en-CA" href="https://www.ionos.ca/help/hosting/troubleshooting-for-php/what-is-a-parse-error/">
+    <link rel="alternate" hreflang="fr-FR" href="https://www.ionos.fr/assistance/hebergement/depannage-pour-php/quest-ce-quune-erreur-parse/">
+    <link rel="alternate" hreflang="fr" href="https://www.ionos.fr/assistance/hebergement/depannage-pour-php/quest-ce-quune-erreur-parse/">
+    <link rel="alternate" hreflang="es-MX" href="https://www.ionos.mx/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/">
+    <link rel="alternate" hreflang="it-IT" href="https://www.ionos.it/aiuto/hosting/risoluzione-dei-problemi-per-php/che-cose-un-parse-error/">
+    
+	<link rel="canonical" href="https://www.ionos.es/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/">
+	<script>var language="2";</script><script>var pageId="2887";</script>        <script type="text/javascript" id="test">
+            var absRefPrefix = "/ayuda/";
+            var basePath = document.location.protocol + '//' + window.location.host + absRefPrefix;
+            var sessionPath = "session/";
+            var cacheBuster = "no_cache=" + Date.now();
+            var classPath = "t" + "ypo3conf/ext/ciso_globalnavigation/Classes/";
+
+            if (window === window.top) {
+                var loginBaseUrl = (document.location.protocol + '//' + window.location.host).replace('www', 'login');
+                var loginUrl = loginBaseUrl + "/login?redirect_url=";
+                var optionalLoginUrl = loginBaseUrl + "/optional?redirect_url=";
+
+                var loginRedirectUrl = basePath + sessionPath + "login";
+
+                var originParamLogin = "?origin=" + document.location.pathname;
+                if (document.location.search.indexOf('id') !== -1) {
+                    var regexp = /id=([\d]+)/;
+                    var matches = document.location.search.match(regexp);
+                    if (matches !== null && matches.length > 1) {
+                        originParamLogin += "&id=" + matches.pop();
+                    }
+                }
+                originParamLogin += "&" + cacheBuster;
+
+                loginUrl += encodeURIComponent(loginRedirectUrl + originParamLogin);
+                optionalLoginUrl += encodeURIComponent(loginRedirectUrl + originParamLogin);
+
+                var request = new XMLHttpRequest();
+                request.addEventListener("load", function() {
+                    var result = this.responseText;
+
+                    if(result.length > 0) {
+
+                        var state = JSON.parse(result);
+                        var sessionState = state.sessionState;
+
+                        switch (sessionState) {
+                            case "invalidateSession":
+                                window.location.href = basePath + sessionPath + "invalidate?" + cacheBuster;
+                            break;
+
+                            case "localLogin":
+                                window.location.href = optionalLoginUrl;
+                            break;
+
+                            default: // sessionState is null -> no action required
+                        }
+                    }
+                });
+
+                var url = basePath + sessionPath + "state?" + cacheBuster;
+                request.open("GET", url);
+                request.send();
+            }
+
+
+            var OAO = OAO || {}; // OAO refers to the global OAO variable.
+            OAO.q = OAO.q || {};
+            OAO.q.c = OAO.q.c || [];
+            OAO.q.navigation = OAO.q.navigation || [];
+            OAO.q.c.push(['setMarket', 'es']);
+            OAO.q.c.push(['setLanguage', 'es_ES']);
+            OAO.q.c.push(['setPageName', window.document.location.pathname]);
+
+            if(document.cookie.indexOf("eue_ftk") > -1) {
+                OAO.q.c.push(['setFrontendToken', /eue_ftk=([A-z,a-z,0-9,-]*);*?/.exec(document.cookie)[1]]);
+                OAO.q.navigation.push(['setLogoutUrl', basePath + sessionPath + "logout"]);
+            }
+            else {
+                if (typeof window.loginUrlExtraCheck !== "undefined" && typeof window.loginUrlExtraCheck === "function") {
+                    if (window.loginUrlExtraCheck()) {
+                        OAO.q.navigation.push(['setLoginUrl', loginUrl]);
+                    }
+                } else {
+                    OAO.q.navigation.push(['setLoginUrl', loginUrl]);
+                }
+            }
+
+            if(document.cookie.indexOf("NGUserID") > -1) {
+                var request = new XMLHttpRequest();
+
+                request.addEventListener('load', function(event) {
+                   if (request.status >= 200 && request.status < 300) {
+                      //console.log(request.responseText);
+                   } else {
+                     // console.warn(request.statusText, request.responseText);
+                   }
+                });
+
+                var url = basePath + classPath + "Utility/NGUserID.php?no_cache=" + Date.now() + "&origin=" + basePath;
+                request.open("GET", url);
+                request.send();
+            }
+
+            if(document.cookie.indexOf("ionosid") > -1) {
+                var request = new XMLHttpRequest();
+
+                request.addEventListener('load', function(event) {
+                   if (request.status >= 200 && request.status < 300) {
+                      console.log(request.responseText);
+                   } else {
+                      console.warn(request.statusText, request.responseText);
+                   }
+                });
+
+                var url = basePath + classPath + "Utility/IonosID.php?no_cache=" + Date.now() + "&origin=" + basePath;
+                request.open("GET", url);
+                request.send();
+            }
+
+            var productArea = null;
+            var categoryEnumElement = document.querySelector("meta[name='category-enum']");
+            if (categoryEnumElement !== null) {
+                productArea = categoryEnumElement.getAttribute('content');
+            } else {
+                var categoryMetaElement = document.querySelector("meta[name='category-name']");
+                if (categoryMetaElement !== null) {
+                    productArea = categoryMetaElement.getAttribute('content');
+                }
+            }
+
+            if (productArea !== null) {
+                OAO.q.navigation.push(['setProductArea', productArea]);
+            }
+            else {
+                OAO.q.navigation.push(['setProductArea', 'Home']);
+            }
+
+        </script>
+        <script id="oaotag" type="text/javascript" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/helpAndLearn.js.descarga" async="async" defer="defer"></script>
+<script type="text/javascript" async="" id="realpersonChatLoader" src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/loadchatmodul.js.descarga"></script><link type="text/css" rel="stylesheet" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/inpagelayer.css"><link type="text/css" rel="stylesheet" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/welcome-tour.css"><link type="text/css" rel="stylesheet" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/realperson-code.css"><link type="text/css" rel="stylesheet" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/realperson-code(1).css"><script src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/loadlayerchatmodul-v2.js.descarga"></script><link type="text/css" rel="stylesheet" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/layer2.css"><link type="text/css" rel="stylesheet" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/navigation.css"><script type="text/javascript" src="https://tif.ionos.es/js/70000.js"></script><link type="text/css" rel="stylesheet" href="./¿Qué es un Parse Error_ - IONOS Ayuda_files/statuspage.css"></head>
+<body id="es_page-2887" data-lang="2" class="responsive-large oao-pi-nolayer oao-pi-with-navigation">
+<script type="text/javascript">
+    responsiveHeader();
+    var OAO = OAO || {};
+    OAO.q = OAO.q || {};
+    OAO.q.pageintegration = OAO.q.pageintegration || [];
+</script>
+
+
+        <div id="container">
+            <div class="oao-navi-navigation oao-navi-finished" xmlns:f="http://www.w3.org/1999/html">
+    <div class="oao-navi-top"><ul></ul></div><div class="oao-navi-left">
+        
+        <div class="oao-navi-application-name">
+            <a class="oao-navi-app-name" href="https://www.ionos.es/ayuda/">
+                <span>
+                    
+                            Centro de Ayuda
+                        
+                </span>
+            </a>
+        </div>
+    </div>
+<div class="oao-navi-center"><ul><li class="oao-navi-flyout-container oao-navi-flyout-search oao-navi-flyout-search-big"><div class="oao-navi-search-container"><a class="oao-navi-flyout-item" title="Buscador de soluciones"></a><div class="oao-navi-input-container oao-navi-speech"><i class="oao-navi-search-icon"></i><input class="oao-navi-search-input" type="search" placeholder="Buscar funciones, dominios y artículos de ayuda"><i class="oao-navi-search-mic"></i></div></div></li></ul></div><div class="oao-navi-right"><ul class="oao-navi-sub"><li class="oao-navi-flyout-container oao-navi-flyout-login "><a href="https://login.ionos.es/login?redirect_url=https%3A%2F%2Fwww.ionos.es%2Fayuda%2Fsession%2Flogin%3Forigin%3D%2Fayuda%2Fhosting%2Fsolucion-de-problemas-para-php%2Fque-es-un-parse-error%2F%26no_cache%3D1590372446005">Acceder</a></li><li class="oao-navi-flyout-container oao-navi-flyout-support "><a class="oao-navi-flyout-item" data-target-id="oao-navi-support-button" title=""></a></li><li class="oao-navi-flyout-container oao-navi-flyout-search oao-navi-flyout-search-small"><div class="oao-navi-search-container"><a class="oao-navi-flyout-item" title="Buscador de soluciones"></a><div class="oao-navi-input-container oao-navi-speech"><i class="oao-navi-search-icon"></i><input class="oao-navi-search-input" type="search" placeholder="Buscar funciones, dominios y artículos de ayuda"><i class="oao-navi-search-mic"></i></div></div></li></ul></div></div>
+
+
+            
+
+    <div id="content" class="clearfix knowledge" data-iframe-height="">
+        <a class="skip-target" name="skip-to-content"></a>
+
+        
+
+        
+
+<div class="header-section narrow emphasized section-overlapping">
+    <header>
+
+        
+                
+
+    
+        <ul class="navigation breadcrumb-navigation">
+            
+                
+                        <a href="https://www.ionos.es/ayuda/" class="link link--bright">Inicio</a>
+                    
+            
+                
+                        
+                                <a href="https://www.ionos.es/ayuda/hosting/" class="link link--action link--bright">Hosting</a>
+                            
+                    
+            
+                
+                        
+                                <a href="https://www.ionos.es/ayuda/hosting/php/" class="link link--action link--bright">PHP</a>
+                            
+                    
+            
+                
+                        
+                    
+            
+        </ul>
+    
+
+    
+            <h1 class="headline-page">¿Qué es un Parse Error?</h1>
+        
+
+            
+
+    </header>
+</div>
+
+
+
+        <div class="content-section has-sticky-sidebar narrow">
+            <div class="content"><span class="page-transition__indicator-bar"></span>
+                <main>
+                    <div class="grid-12 equal-grid-spacing clearfix">
+                        <div class="grid-08a grid-small-12">
+                            <div class="grid-spacing-both">
+
+                                
+
+                                <div class="content-sheet">
+
+                                    
+
+                                    
+
+                                    <section class="default">
+                                        <div class="sheet-block">
+                                            
+
+
+
+
+
+
+		
+	
+
+
+
+
+		
+				<p class="lead-paragraph">Si el código PHP contiene un error de sintaxis, el parser de PHP (analizador de PHP) no puede interpretar el código y deja de funcionar.</p><p class="content-paragraph">Por ejemplo, un error de sintaxis puede ser una comilla olvidada, un punto y coma que falta al final de una línea o paréntesis que no se han cerrados correctamente. Esto conduce a un error de análisis, porque el código no puede ser leído e interpretado correctamente por el parser de PHP.</p><p class="content-paragraph">El mensaje de error correspondiente no muestra necesariamente la línea exacta en la que se encuentra el error. En el siguiente ejemplo, falta una comilla en la línea 2. Sin embargo, el parser lo referirá a la línea 5 del mensaje de error.</p>
+			
+	
+
+
+
+<div id="c53587" class="frame frame-default frame-type-fs_code_snippet frame-layout-0"><pre data-output="1-5" data-user="user" data-host="host" class="command-line language-bash code-toolbar" data-language="bash"><code class=" language-bash"><span class="command-line-prompt"><span></span><span></span><span></span><span></span><span></span></span>1: <span class="token operator">&lt;</span>?php
+2: <span class="token keyword">echo</span> "H<span class="token punctuation">;</span> // Comillas olvidadas
+3: algo<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+4: algo más<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+5: ?<span class="token operator">&gt;</span> // ¡Aquí se muestra el error<span class="token operator">!</span></code><div class="toolbar"><div class="toolbar-item"><span>bash</span></div></div></pre></div>
+
+
+
+
+
+
+
+
+		
+	
+
+
+
+
+		
+				<p class="content-paragraph">El parser le mostrará un mensaje de error similar a éste:</p><p class="content-paragraph">Parse error: syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /homepages/12/d1123465789/htdocs/index.php on line 5</p><p class="content-paragraph"><strong><span class="sc-warning">A tener en cuenta:</span></strong> para evitar un error, puede escribir los caracteres siempre en pares y luego añadir el contenido entre los caracteres de apertura y de cierre. También puede utilizar un editor que resalta tales inconsistencias.</p>
+			
+	
+
+
+
+                                        </div>
+                                    </section>
+
+                                    <hr class="survey">
+
+                                    <section class="secondary">
+                                        <div class="sheet-block">
+                                            <script type="text/javascript">
+    var OAO = OAO || {};
+    OAO.q = OAO.q || {};
+    OAO.q.ias = OAO.q.ias || [];
+
+    OAO.q.ias.push(['setApplication', "HELP_CENTER"]);
+    OAO.q.ias.push(['setPage', "SetupAssistant"]);
+</script>
+
+<a class="oao-decision-survey" data-oao-decision-survey-type="helpful-article" data-oao-decision-survey-id="help_2887" data-oao-decision-survey-context="hosting"><div style="text-align: center;"><h4 class="subheadline-section">¿Le ha sido de ayuda esta información?</h4><a class="button-secondary" style="display: inline-block;">Sí</a><a class="button-secondary" style="display: inline-block;">No</a></div></a>
+                                        </div>
+                                    </section>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="grid-04a grid-medium-hidden grid-small-hidden sticky-sidebar" style="top: 0px;">
+                            <div class="grid-spacing-both">
+                                
+
+
+
+
+
+
+
+
+
+
+		
+				
+			
+	
+
+
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </div>
+
+
+            <footer class="page-footer" id="footer-container">
+
+    <div id="print-view-footer-info" class="hidden">
+        <p id="info-text" class="content-paragraph">###DOWNLOAD_ARTICLE_AS_PDF_FOOTER_INFO###</p>
+        <p class="content-paragraph"><a href="https://www.ionos.es/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/">https://www.ionos.es/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/</a></p>
+    </div>
+
+    <div class="page-footer__block">
+        <section class="page-footer__section page-footer__section--align-center">
+            <div class="page-footer__section-item">
+                <div class="card-block">
+                    <a class="link-standard button-icon-before print-icon copy-text-e1" href="t3://page?uid=current#print">Imprimir página</a>
+                </div>
+            </div>
+            <div class="page-footer__section-item">
+                <div class="card-block">
+                    <a class="link-standard button-icon-before generate-pdf-icon copy-text-e1" href="t3://page?uid=current">Generar PDF</a>
+                    <div class="loading-circle loading-circle--small" id="pdfDownloadLoadingIndicator">
+                        <span class="loading-circle__circle"></span>
+                        <span class="loading-circle__circle"></span>
+                        <span class="loading-circle__circle"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="page-footer__section-item">
+                <div class="card-block">
+                    
+
+<a href="http://ionos.ly/IONOS_FB_ES" class="link-share icon-font facebook-icon" target="_blank"></a>
+
+<a href="http://ionos.ly/IONOS_TW_ES" class="link-share icon-font twitter-icon" target="_blank"></a>
+
+
+    <a href="mailto:?subject=%C2%BFQu%C3%A9%20es%20un%20Parse%20Error%3F&amp;body=Hola%2C%0A%0Aaqu%C3%AD%20podr%C3%A1s%20encontrar%20informaci%C3%B3n%20%C3%BAtil%20y%20consejos%20de%201%261%20IONOS%3A%0A%0Ahttps://www.ionos.es/ayuda/hosting/solucion-de-problemas-para-php/que-es-un-parse-error/%0A%0A%C2%A1Saludos%21%0A" class="link-share icon-font friend-icon reveal-title-by-hover link-recommend" title="Enviar página por correo"></a>
+
+                </div>
+            </div>
+        </section>
+        <hr class="page-footer__seperator">
+        <section class="page-footer__section page-footer__section--align-center">
+            <div class="page-footer__section-item page-footer__section-item--small-hidden">
+                <h2 class="subheadline-b2">Aplicación móvil IONOS</h2>
+            </div>
+            <div class="page-footer__section-item">
+                <a class="appstore image-hover link-standard copy-text-e1" href="https://itunes.apple.com/app/1-1-hosting-manager/id1080444849?ct=cp.footer&amp;pt=335853&amp;mt=8" target="_blank">
+                    <span class="hosting-manager copy-text-e1"></span>
+                </a>
+            </div>
+            <div class="page-footer__section-item">
+                <a class="playstore image-hover link-standard copy-text-e1" href="https://play.google.com/store/apps/details?id=com.oneandone.ciso.mobile.app.android&amp;referrer=utm_source%3Dcp%26utm_campaign%3Dfooter" target="_blank">
+                    <span class="hosting-manager copy-text-e1"></span>
+                </a>
+            </div>
+        </section>
+        <hr class="page-footer__seperator">
+        <section class="page-footer__section page-footer__section--align-center">
+            <div class="page-footer__section-item page-footer__section-item--small-hidden">
+                <div class="oao-statuspage-overall-status"><a class="oao-statuspage-overall-state-none" target="_blank" href="https://www.ionos-status.es/?utm_medium=footer&amp;utm_content=none&amp;utm_source=HELP_CENTER&amp;utm_campaign=%2Fayuda%2Fhosting%2Fsolucion-de-problemas-para-php%2Fque-es-un-parse-error%2F&amp;utm_term=no_search">Todos los sistemas funcionan con normalidad</a></div>
+            </div>
+            <div class="page-footer__section-item">
+                <a href="https://www.ionos.es/" class="link-standard copy-text-c1">1&amp;1 IONOS España S.L.U.</a> • 2020
+            </div>
+            <div class="page-footer__section-item">
+                
+                        
+
+
+
+
+
+
+		
+	
+
+
+
+
+		
+				<ul class="subheadline-b2"><li><a href="https://www.ionos.es/terms-gtc/index.php?id=1" class="link-standard copy-text-c1">T&amp;C</a></li><li><a href="https://www.ionos.es/terms-gtc/index.php?id=6" class="link-standard copy-text-c1">Política de privacidad</a></li><li><a href="https://www.ionos.es/empresa" class="link-standard copy-text-c1">empresa</a></li><li><a href="https://www.ionos.es/community" class="link-standard copy-text-c1">Community</a></li></ul>
+			
+	
+
+
+
+                    
+            </div>
+        </section>
+    </div>
+</footer>
+        </div>
+    
+
+<div class="script-tag-container" style="display: none; position: absolute; bottom: 0; left: -10px; width: 0; height: 0;">
+    <script type="text/javascript">
+        doResponsiveThings();
+    </script>
+</div>
+<script src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/jquery-3.4.0.min.js.descarga" type="text/javascript"></script>
+<script src="./¿Qué es un Parse Error_ - IONOS Ayuda_files/merged-46f35105c5f2223d6aa0b6193531a4f4-53cc09b726d2ef68d3b046fef2a193e0.js.descarga" type="text/javascript"></script>
+
+<script type="text/javascript">_satellite.pageBottom();</script><script type="text/javascript" src="https://tif.ionos.es/js/60000.js"> </script><script type="text/javascript"> /* <![CDATA[ */ 
+  
+  if ($('body').attr('data-lang')){
+    switch ($('body').attr('data-lang')){
+      case '0':
+        content_lanugage = 'de_DE';
+        break;
+      case '1':
+        content_lanugage = 'en_GB';
+        break;
+      case '2':
+         content_lanugage = 'es_ES';
+        break;
+      case '3':
+        content_lanugage = 'en_US';
+        break;
+      case '4':
+        content_lanugage = 'en_CA';
+        break;
+      case '5':
+        content_lanugage = 'fr_FR';
+        break;
+      case '6':
+        content_lanugage = 'es_MX';
+        break;
+      case '7':
+        content_lanugage = 'it_IT';
+        break;  
+      default:  
+        content_lanugage = '';
+        break;          
+    }
+  }
+  else {
+    content_lanugage = '';
+  }
+  
+  referrer = (document.referrer.split(document.location.host).length>1)?document.referrer.split(document.location.host)[1].match(/^\/?([a-z]*)\/?/)[1]:'';
+  switch (referrer){
+    case 'hilfe':
+      referrer_touchpoint = 'help center';
+      break;
+    case 'help':
+      referrer_touchpoint = 'help center';
+      break;
+    case 'ayuda':
+      referrer_touchpoint = 'help center';
+      break;
+    case 'assistance':
+      referrer_touchpoint = 'help center';
+      break;
+    case 'aiuto':
+      referrer_touchpoint = 'help center';
+      break;
+    default:  
+      referrer_touchpoint = referrer;
+      break;          
+  } 
+  
+  NSfTIF.track({ 
+    'pageidentifier': document.location.pathname,
+    'referrer_touchpoint': referrer_touchpoint,
+    'request_touchpoint': 'help center',
+    'tenant': '1&1 INTERNET ESPANA S.L.U.',
+    'brand': '1&1 IONOS',
+    'content_language': content_lanugage,
+    'market': ($('body').attr('id'))?$('body').attr('id').substr(0,$('body').attr('id').indexOf('_')).toUpperCase():'',
+    'page_id': ($('body').attr('id'))?$('body').attr('id').substr($('body').attr('id').indexOf('-')+1):'',
+    'main_topic': document.location.pathname.split("/")[2],
+    'sub_topic': document.location.pathname.split("/")[3],
+    'subject': document.location.pathname.split("/")[4],
+    'pixel_type': 'cp',
+  });
+  
+/* ]]> */ </script><script type="text/javascript">
+
+  UNOUNO = window.UNOUNO || {};
+UNOUNO.browser = UNOUNO.browser || {};
+UNOUNO.engine = UNOUNO.engine || {};
+UNOUNO.device = UNOUNO.device || {};
+
+UNOUNO.engine.getVersion = function() {
+
+    var agent = window.navigator.userAgent;
+
+    var version = "";
+    if (UNOUNO.engine.isMshtml()) {
+        var isTrident = /Trident\/([^\);]+)(\)|;)/.test(agent);
+        if (/MSIE\s+([^\);]+)(\)|;)/.test(agent)) {
+            version = RegExp.$1;
+
+            // If the IE8 or IE9 is running in the compatibility mode, the MSIE value
+            // is set to an older version, but we need the correct version. The only
+            // way is to compare the trident version.
+            if (version < 8 && isTrident) {
+                if (RegExp.$1 == "4.0") {
+                    version = "8.0";
+                } else if (RegExp.$1 == "5.0") {
+                    version = "9.0";
+                }
+            }
+        } else if (isTrident) {
+            // IE 11 dropped the "MSIE" string
+            var match = /\brv\:(\d+?\.\d+?)\b/.exec(agent);
+            if (match) {
+                version = match[1];
+            }
+        }
+    } else if (UNOUNO.engine.isOpera()) {
+        // Opera has a special versioning scheme, where the second part is combined
+        // e.g. 8.54 which should be handled like 8.5.4 to be compatible to the
+        // common versioning system used by other browsers
+        if (/Opera[\s\/]([0-9]+)\.([0-9])([0-9]*)/.test(agent))
+        {
+            // opera >= 10 has as a first verison 9.80 and adds the proper version
+            // in a separate "Version/" postfix
+            // http://my.opera.com/chooseopera/blog/2009/05/29/changes-in-operas-user-agent-string-format
+            if (agent.indexOf("Version/") != -1) {
+                var match = agent.match(/Version\/(\d+)\.(\d+)/);
+                // ignore the first match, its the whole version string
+                version =
+                    match[1] + "." +
+                    match[2].charAt(0) + "." +
+                    match[2].substring(1, match[2].length);
+            } else {
+                version = RegExp.$1 + "." + RegExp.$2;
+                if (RegExp.$3 != "") {
+                    version += "." + RegExp.$3;
+                }
+            }
+        }
+    } else if (UNOUNO.engine.isWebkit()) {
+        if (/AppleWebKit\/([^ ]+)/.test(agent))
+        {
+            version = RegExp.$1;
+
+            // We need to filter these invalid characters
+            var invalidCharacter = RegExp("[^\\.0-9]").exec(version);
+
+            if (invalidCharacter) {
+                version = version.slice(0, invalidCharacter.index);
+            }
+        }
+    } else if (UNOUNO.engine.isGecko()) {
+        // Parse "rv" section in user agent string
+        if (/rv\:([^\);]+)(\)|;)/.test(agent)) {
+            version = RegExp.$1;
+        }
+    } else {
+        version = "1.9.0.0";
+    }
+
+    return version;
+};
+
+UNOUNO.engine.getName = function() {
+
+    var name;
+    if (UNOUNO.engine.isMshtml()) {
+        name = "mshtml";
+    } else if (UNOUNO.engine.isOpera()) {
+        name = "opera";
+    } else if (UNOUNO.engine.isWebkit()) {
+        name = "webkit";
+    } else if (UNOUNO.engine.isGecko()) {
+        name = "gecko";
+    } else {
+        // fallback to gecko
+        name = "gecko";
+    }
+
+    return name;
+};
+
+UNOUNO.engine.isOpera = function() {
+    return window.opera &&
+        Object.prototype.toString.call(window.opera) == "[object Opera]";
+};
+
+UNOUNO.engine.isWebkit = function() {
+    return window.navigator.userAgent.indexOf("AppleWebKit/") != -1;
+};
+
+
+UNOUNO.engine.isGecko = function() {
+    return window.navigator.mozApps &&
+        window.navigator.product === "Gecko" &&
+        window.navigator.userAgent.indexOf("Trident") == -1;
+};
+
+UNOUNO.engine.isMshtml = function () {
+    if (window.navigator.cpuClass &&
+        (/MSIE\s+([^\);]+)(\)|;)/.test(window.navigator.userAgent) ||
+        /Trident\/\d+?\.\d+?/.test(window.navigator.userAgent))) {
+        return true;
+    }
+    if (UNOUNO.engine.isWindowsPhone()) {
+        return true;
+    }
+    return false;
+};
+
+UNOUNO.engine.isWindowsPhone = function () {
+    return window.navigator.userAgent.indexOf("Windows Phone") > -1;
+};
+
+UNOUNO.engine.known = {
+    // Safari should be the last one to check, because some other Webkit-based browsers
+    // use this identifier together with their own one.
+    // "Version" is used in Safari 4 to define the Safari version. After "Safari" they place the
+    // Webkit version instead. Silly.
+    // Palm Pre uses both Safari (contains Webkit version) and "Version" contains the "Pre" version. But
+    // as "Version" is not Safari here, we better detect this as the Pre-Browser version. So place
+    // "Pre" in front of both "Version" and "Safari".
+    "webkit" : "AdobeAIR|Titanium|Fluid|Chrome|Android|Epiphany|Konqueror|iCab|iPad|iPhone|OmniWeb|Maxthon|Pre|PhantomJS|Mobile Safari|Safari",
+
+    // Better security by keeping Firefox the last one to match
+    "gecko" : "prism|Fennec|Camino|Kmeleon|Galeon|Netscape|SeaMonkey|Namoroka|Firefox",
+
+    // No idea what other browsers based on IE's engine
+    "mshtml" : "IEMobile|Maxthon|MSIE|Trident",
+
+    // Keep "Opera" the last one to correctly prefer/match the mobile clients
+    "opera" : "Opera Mini|Opera Mobi|Opera"
+};
+
+UNOUNO.browser.getName = function() {
+
+    var detectedEngine = UNOUNO.engine.known[UNOUNO.engine.getName()];
+    var agent = navigator.userAgent;
+    var reg = new RegExp("(" + detectedEngine + ")(/|)?([0-9]+\.[0-9])?");
+    var match = agent.match(reg);
+    if (!match) {
+        return "";
+    }
+
+    var name = match[1].toLowerCase();
+
+    var engine = UNOUNO.engine.getName();
+    if (engine === "webkit")
+    {
+        if (agent.match(/Edge\/\d+\.\d+/)) {
+            name = "edge";
+        }
+        else if (name === "android")
+        {
+            // Fix Chrome name (for instance wrongly defined in user agent on Android 1.6)
+            name = "mobile chrome";
+        }
+        else if (agent.indexOf("Mobile Safari") !== -1 || agent.indexOf("Mobile/") !== -1)
+        {
+            // Fix Safari name
+            name = "mobile safari";
+        }
+        else if (agent.indexOf(" OPR/") != -1) {
+            name = "opera";
+        }
+    }
+    else if (engine ===  "mshtml")
+    {
+        // IE 11's ua string no longer contains "MSIE" or even "IE"
+        if (name === "msie" || name === "trident")
+        {
+            name = "ie";
+
+            var reg = new RegExp("IEMobile");
+            if (agent.match(reg)) {
+                name = "iemobile";
+            }
+        }
+    }
+    else if (engine === "opera")
+    {
+        if (name === "opera mobi") {
+            name = "operamobile";
+        } else if (name === "opera mini") {
+            name = "operamini";
+        }
+    }
+
+    return name;
+
+};
+
+UNOUNO.browser.getVersion =  function() {
+
+    var detectedEngine = UNOUNO.engine.known[UNOUNO.engine.getName()];
+    var agent = navigator.userAgent;
+    var reg = new RegExp("(" + detectedEngine + ")(/| )([0-9]+\.[0-9])");
+    var match = agent.match(reg);
+    if (!match) {
+        return "";
+    }
+
+    var name = match[1].toLowerCase();
+    var version = match[3];
+
+    // Support new style version string used by Opera and Safari
+    if (agent.match(/Version(\/| )([0-9]+\.[0-9])/)) {
+        version = RegExp.$2;
+    }
+
+    if (UNOUNO.engine.getName() == "mshtml")
+    {
+        // Use the Engine version, because IE8 and higher change the user agent
+        // string to an older version in compatibility mode
+        version = UNOUNO.engine.getVersion();
+    }
+
+    if (UNOUNO.engine.getName() == "webkit" ||
+        UNOUNO.browser.getName() == "opera")
+    {
+        if (agent.match(/OPR(\/| )([0-9]+\.[0-9])/)) {
+            version = RegExp.$2;
+        }
+        if (agent.match(/Edge\/([\d+\.*]+)/)) {
+            version = RegExp.$1;
+        }
+    }
+
+    return version;
+};
+
+UNOUNO.device.getType = function() {
+
+    var userAgentString = navigator.userAgent;
+
+    if(UNOUNO.device.detectTabletDevice(userAgentString)){
+        return "tablet";
+    } else if (UNOUNO.device.detectMobileDevice(userAgentString)){
+        return "mobile";
+    }
+
+    return "desktop";
+};
+
+UNOUNO.device.detectMobileDevice = function(userAgentString){
+    return /android.+mobile|ip(hone|od)|bada\/|blackberry|BB10|maemo|opera m(ob|in)i|fennec|NetFront|phone|psp|symbian|IEMobile|windows (ce|phone)|xda/i.test(userAgentString);
+};
+
+/**
+ * Detects if a device is a tablet device.
+ * @param userAgentString {String} userAgent parameter, needed for decision.
+ * @return {Boolean} Flag which indicates whether it is a tablet device.
+ */
+UNOUNO.device.detectTabletDevice = function(userAgentString){
+    var isIE10Tablet = (/MSIE 10/i.test(userAgentString)) && (/ARM/i.test(userAgentString)) && !(/windows phone/i.test(userAgentString));
+    var isCommonTablet = (!(/android.+mobile|Tablet PC/i.test(userAgentString)) && (/Android|ipad|tablet|playbook|silk|kindle|psp/i.test(userAgentString)));
+
+    return  isIE10Tablet || isCommonTablet;
+};
+  
+</script><script type="text/javascript">
+
+  var page = window.location.pathname;
+  var pageID = $('body').attr('id').substr($('body').attr('id').indexOf('-')+1);
+  var application = 'T3.HL.'+$('body').attr('id').substr(0,$('body').attr('id').indexOf('_')).toUpperCase();
+  
+  $.realUserMonitoring = function() {
+    var RealUserMonitoring = function() {
+
+        this.getBrowserPerformanceData = function() {
+            return  window.performance || window.webkitPerformance || window.msPerformance || window.mozPerformance;
+        };
+
+        this.initializeMeasurement = function(waitUntil) {
+            var performanceTimeout = !((this.currentTime - this.startMeasurement) < 90000);
+
+            if (!!!this.performance.timing[waitUntil] && !performanceTimeout) {
+                return window.setTimeout(function() {
+                    this.initializeMeasurement(waitUntil);
+                }.bind(this), 100);
+            }
+
+            if (!!this.performance.timing[waitUntil]) {
+                var timing = {};
+                var currentTime = new Date().getTime();
+                var baseTime = this.performance.timing.navigationStart
+
+                // Return in case baseTime is empty or 0
+                if (!baseTime) {
+                    return;
+                }
+
+                for (var key in this.performance.timing) {
+                    // Check for safari bug where values might not be timestamps
+                    if (this.performance.timing[key] !== 0 && this.performance.timing[key] < baseTime) {
+                        return;
+                    }
+
+                    timing[key] = this.performance.timing[key]
+
+                    // Handle Safari bug where values can be in the far future
+                    // Don't report anything if timing api is buggy
+                    if (timing[key] > currentTime) {
+                        return;
+                    }
+                }
+
+                // if not updated means browser does not support resource api
+                var resources = -1;
+
+                if (this.performance.getEntries) {
+                    resources = this.performance.getEntries('resources').length;
+                }
+
+                var parameters = {
+                    dom_serial: undefined,
+                    application: application,
+                    page: page,
+                    node_elements: document.getElementsByTagName('*').length,
+                    page_size: Math.round(unescape(encodeURIComponent(this.rootNode.outerHTML)).length),
+                    browser: UNOUNO.browser.getName() || 'unknown',
+                    browser_version: UNOUNO.browser.getVersion() || 'unknown',
+                    browser_locale: window.navigator.userLanguage || window.navigator.language || 'unknown',
+                    os: 'unknown',
+                    market: 'ZZ',
+                    variant: undefined,
+                    referer: document.referrer || '',
+                    device_type: UNOUNO.device.getType(),
+                    unload_time: timing.unloadEventEnd - timing.unloadEventStart,
+                    navigation_time: timing.responseEnd - timing.navigationStart,
+                    browser_time: timing.loadEventEnd - timing.domLoading, // Browser + resources
+                    page_load_time: timing.loadEventEnd - timing.navigationStart,
+                    redirect_time: timing.redirectEnd - timing.redirectStart,
+                    app_cache_time: timing.domainLookupStart - timing.fetchStart,
+                    dns_time: timing.domainLookupEnd - timing.domainLookupStart,
+                    tcp_time: timing.connectEnd - timing.connectStart,
+                    request_time: timing.responseStart - timing.requestStart,
+                    response_time: timing.responseEnd - timing.responseStart,
+                    resources: resources,
+                    interactive_time: timing.domInteractive - timing.domLoading,
+                    ttfb: timing.responseStart - timing.fetchStart,
+                    pfx_get_dom: 0,
+                    pfx_hdl_doc: 0,
+                    pfx_rex_doc: 0,
+                    pfx_pre_proc: 0,
+                    ng_userid: (document.cookie.match(new RegExp('NG_USERID=([^;]+)')) || [])[1],
+                    visit_id: undefined
+                };
+
+                var measurementPixel = new Image();
+                measurementPixel.src = (function() {
+                    var params = [];
+
+                    for (var key in parameters) {
+                        params.push(key + '=' + encodeURIComponent(parameters[key]));
+                    }
+
+                    return '//pixel.1und1.de/rum?' + params.join('&');
+                })();
+            }
+        }
+
+        this.initialize = function() {
+            var rootNode = document.getElementsByTagName('html')[0];
+
+            if (!rootNode || !rootNode.outerHTML) {
+                return;
+            } else if (!!!application || !!!page) {
+                return;
+            }
+
+            this.rootNode = rootNode;
+            this.currentTime = new Date().getTime();
+
+            if (!this.startMeasurement) {
+                this.startMeasurement = this.currentTime;
+            }
+
+            this.performance = this.getBrowserPerformanceData();
+
+            if (this.performance && this.performance.timing) {
+                this.initializeMeasurement('loadEventEnd');
+            }
+
+            return this;
+        };
+
+        return this.initialize();
+    };
+
+    return new RealUserMonitoring();
+};
+
+$(document).ready(function() {
+  if (document.location.host.indexOf('ionos.de') !== -1) {
+    window.OAO = window.OAO || {};
+  	window.OAO.q = window.OAO.q || {};
+	  window.OAO.q.privacyconsent = window.OAO.q.privacyconsent || [];
+    window.OAO.q.privacyconsent.push(['addStatisticsCallback', function() {
+      $.realUserMonitoring();
+    }]);
+  } else {
+    $.realUserMonitoring();
+  }
+});
+  
+</script><!-- begining RealPerson-code for department: Invisible IONOS -->
+<span id="optiRealPersonContent" class="text-offline video-offline">
+<!--RealPerson Content-->
+</span>
+<script type="text/javascript">
+<!--
+var rpChatConfig = rpChatConfig || {};
+rpChatConfig.deptId = 243;
+rpChatConfig.pagename = "";
+(function () {
+    var realpersonChatLoader = function () {
+        var e = document.createElement('script');
+        e.type = 'text/javascript';
+        e.async = true;
+        e.id = 'realpersonChatLoader';
+        e.src = 'https://dialog50.realperson.de/system/scripts/loadchatmodul.js';
+        document.getElementsByTagName('head')[0].appendChild(e);
+    };
+    realpersonChatLoader();
+})();
+//-->
+</script>
+<!--RealPerson Code end-->
+
+<div class="page-transition__blocker"><div class="page-transition__loading-spin loading-spin"></div></div><div class="static-overlay__blocker static-overlay__blocker--hidden"></div><div id="realpersonChatWrapper" class="closed" style="display: none;"></div></body></html>
