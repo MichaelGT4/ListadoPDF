@@ -19,7 +19,7 @@ class PDFReporte extends FPDF{
         $this-> Ln(7);
 
         $this -> SetFont('Arial','B',11);
-        $this -> Cell(0,40,"Profesor:");
+        $this -> Cell(0,40,"Profesor/a:");
         $this -> SetFont('Arial','',11);
         $this -> Cell(-145,40,"Jose Perez", 0, 0, 'R');
         $this-> Ln(7);
@@ -49,17 +49,17 @@ $pdf = new PDFReporte();
 $pdf -> AliasNbPages();
 $pdf -> AddPage();
 $pdf-> Ln(30);
-$pdf-> SetFont('Arial', 'B', 14);
-$pdf -> cell(50,4,'Matricula: ',0,0,'C');
-$pdf -> cell(50,4,'Nombre: ',0,0,'C');
-$pdf -> cell(50,4,'Apellido: ',0,0,'C');
-$pdf -> SetFont('Helvetica', '', 12);
+$pdf-> SetFont('Arial', 'B', 12);
+$pdf -> cell(50,1,'Matricula: ',0,0,'C');
+$pdf -> cell(50,1,'Nombre: ',0,0,'C');
+$pdf -> cell(50,1,'Apellido: ',0,0,'C');
+$pdf -> SetFont('Helvetica', '', 11);
 
 $pdf -> Ln(10);
-for ($x=0;$x<=9;$x++){ 
-    $pdf -> cell(50,8,$matricula[$x],0,0,'C');
-    $pdf -> cell(50,8,$nombre[$x],0,0,'C');
-    $pdf -> cell(50,8,$apellido[$x],0,0,'C');
+for ($x=0;$x<=9;$x++){
+    $pdf -> cell(50,6,$matricula[$x],1,0,'C');
+    $pdf -> cell(50,6,$nombre[$x],1,0,'C');
+    $pdf -> cell(50,6,$apellido[$x],1,0,'C');
     $pdf -> Ln();
 }
 $pdf ->Output();
